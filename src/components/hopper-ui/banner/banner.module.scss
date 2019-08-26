@@ -1,0 +1,11 @@
+@import "../../../css/utils";
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .text {
+    margin-left: 13.81px;
+    font-size: 30px;
+  }
+}

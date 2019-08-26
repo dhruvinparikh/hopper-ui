@@ -1,0 +1,22 @@
+.liquiditypool {
+  background-image: url("../../../images/image@2x.png");
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  padding: 5% 0;
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 42px;
+  }
+}
+.amount {
+  font-size: 82px;
+  align-self: center;
+  .daysUnit {
+    display: inline-block;
+    font-size: 31px;
+    margin-left: 8px;
+  }
+}

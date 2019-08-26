@@ -1,0 +1,17 @@
+.howItWorks {
+  display: flex;
+  flex-direction: column;
+  .heading {
+    font-size: 67px;
+    height: 88px;
+    margin-top: 34px;
+    align-self: center;
+  }
+  .description {
+    font-size: 27px;
+    height: 35px;
+    align-self: center;
+    margin-bottom: 41px;
+
+  }
+}

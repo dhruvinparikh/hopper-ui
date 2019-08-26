@@ -1,0 +1,71 @@
+.sendReceive {
+  .coin {
+    display: flex;
+    height: 525px;
+    width: 100%;
+    align-items: center;
+    .sendCoin {
+      width: 49%;
+      padding: 87px 113.99px 104.79px 50px;
+      transition: width 0.2s;
+    }
+    .sendCoinExpanded {
+      width: 60%;
+      padding: 87px 113.99px 104.79px 50px;
+      transition: width 0.2s;
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: -20px 0px 40px rgba(38, 153, 251, 0.1);
+    }
+    .sendCoinShrinked {
+      width: 40%;
+      padding: 87px 113.99px 104.79px 50px;
+      transition: width 0.2s;
+      background-color: rgba(244, 244, 244, 1);
+      box-shadow: -20px 0px 40px rgba(38, 153, 251, 0.1);
+    }
+    .claimCoin {
+      width: 49%;
+       padding: 87px 113.67px 105px 97.98px;
+       transition: width 0.2s;
+    }
+    .claimCoinShrinked {
+      background-color: rgba(244, 244, 244, 1);
+      transition: width 0.2s;
+      padding: 87px 113.67px 105px 97.98px;
+    }
+    .claimCoinExpanded {
+      width: 60%;
+       padding: 87px 113.67px 105px 97.98px;
+       transition: width 0.2s;
+       background-color: rgba(255, 255, 255, 1);
+       box-shadow: -20px 0px 40px rgba(38, 153, 251, 0.1);
+    }
+    .verticleDivider {
+      width:2%;
+      transition: width 0.2s;
+    }
+    .sentCoin {
+      width:60%;
+      padding: 87px 142.72px 73px 153px;
+      transition: width 0.2s;
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 20px 0px 40px rgba(38, 153, 251, 0.1);
+    }
+    .claimedCoin{
+      background-color: rgba(255, 255, 255, 1);
+      display: flex;
+      width: 60%;
+      flex-direction: column;
+      align-items: center;
+      transition: width 0.2s;
+      padding: 116px 397px 114px 399px;
+      box-shadow: -20px 0px 40px rgba(38, 153, 251, 0.1);
+    }
+  }
+}
+
+.enableMetamask{
+  cursor: pointer; 
+  text-decoration: underline;
+  color: #cc0000;
+}

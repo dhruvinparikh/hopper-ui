@@ -1,0 +1,7 @@
+/build
+/node_modules
+/config
+/scripts
+/src/serviceWorker.js
+/src/services/wasm/proover.js
+/src/services/proofUtils.js

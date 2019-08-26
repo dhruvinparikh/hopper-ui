@@ -1,0 +1,19 @@
+.inputTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.input {
+  height: 173px;
+  width: 100%;
+  border-radius: '12px',
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 17px;
+  transition: width 0.2s;
+}

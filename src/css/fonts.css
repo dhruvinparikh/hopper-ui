@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: ("../fonts/Roboto-Bold.ttf") format("trueType");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: ("../fonts/Roboto-Regular.ttf") format("trueType");
+  }
+
+  @font-face {
+    font-family: "Roboto-Italic";
+    src: ("../fonts/Roboto-Italic.ttf") format("trueType");
+  }
+
+  @font-face {
+    font-family: "ArialRegular";
+    src: ("../fonts/Arial-Regular.ttf") format("trueType");
+  }
+

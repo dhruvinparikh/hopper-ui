@@ -1,0 +1,53 @@
+.inputTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input {
+  width: 100%;
+  margin-top: 11px;
+  margin-bottom: 25px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 17px;
+  width:100%;
+}
+
+.notice {
+  margin-top: 20px;
+  background: rgba(54, 173, 178, 0.1);
+  border: none;
+  border-radius: 20px;
+  padding: 31.64px 17px 17.54px 24px;
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  .title {
+    display: inline;
+  }
+  .text {
+    display: inline;
+  }
+}
+
+.buttons{
+  margin-top:11px;
+  margin-bottom:25px;
+}
+
+.instruction1{
+  font-size: 16px;
+  color:rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-top: 26px;
+}
+
+.instruction2{
+  font-size: 16px;
+  color:rgba(0, 0, 0, 1);
+  text-align: center;
+}

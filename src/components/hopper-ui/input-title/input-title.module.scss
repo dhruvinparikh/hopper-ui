@@ -1,0 +1,22 @@
+.inputTitle {
+  color: rgba(46, 46, 46, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  .title {
+    font-size: 70px;
+    margin-left: 16px;
+    opacity: 1;
+    line-height: 92px;
+    margin-left: 16px;
+  }
+  .title2 {
+    font-size: 37px;
+    opacity: 0.8;
+    line-height: 49px;
+    margin-left: 9.92px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+}
